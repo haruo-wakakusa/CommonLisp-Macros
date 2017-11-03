@@ -1,5 +1,6 @@
 ; Copyright 2017 Haruo Wakakusa (haruowakakusa@gmail.com)
-; Everyone can use, copy, modify and erase this copyright notice.
+; 1. Everyone can use, copy and modify the following code.
+; 2. Everyone can erase this copyright notice and licence terms.
 
 (defmacro do-range (param-forms &rest body)
   (let ((var (first param-forms)) (start 0) (end 0) (step 1)
