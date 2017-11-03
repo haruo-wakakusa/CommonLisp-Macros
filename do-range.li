@@ -1,0 +1,5 @@
+; Copyright 2017 Haruo Wakakusa (haruowakakusa@gmail.com)
+; Everyone can use, copy, modify and erase this copyright notice.
+
+(defmacro do-range (param-list &rest body)
+  (let 
